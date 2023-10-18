@@ -1,2 +1,9 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+#landing {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+ min-height: 100vh;
+}
