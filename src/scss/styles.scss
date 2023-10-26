@@ -1,9 +1,17 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
-#landing {
-    background-image: url("./images/background.jpg");
-    background-size: cover;
-    background-position: center;
- min-height: 100vh;
+#navi {
+    padding-left: 120px;
 }
+
+#nlink {
+    padding-left: 90px;
+}
+
+#title {
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+
