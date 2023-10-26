@@ -1,28 +1,19 @@
-// const path = require('path')
-
-// export default {
-//   root: path.resolve(__dirname, 'src'),
-//   resolve: {
-//     alias: {
-//       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
-//     }
-//   },
-//   server: {
-//     port: 8080,
-//     hot: true
-//   }
-// }
-
 const path = require('path');
 
 export default {
-  base: '/simplesite/', // Change this to match your project name
+  root: path.resolve(__dirname, 'src'),
   resolve: {
     alias: {
-      '~/bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'), // Adjust the alias path if necessary
-    }
+      '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+    },
   },
   server: {
-    port: 8080, // You can keep this for local development
+    port: 8080,
+    hot: true,
+  },
+  build: {
+    outDir: 'dist', // Specify the output directory
   },
 };
+
+
